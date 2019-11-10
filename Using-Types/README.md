@@ -1,25 +1,25 @@
-## Using Types
+# Using Types
 
-### String
+## String
 
 ```typescript
 let myName: string = ' Sang'; // Sang
 ```
 
-### Numbers
+## Numbers
 
 ```typescript
 let myNumber: number = 21; // 21
 let myFloatNumber: number = 21.5; // 21.5
 ```
 
-### Boolean
+## Boolean
 
 ```typescript
 let hasHobbies: boolean = true; // true
 ```
 
-### Array
+## Array
 
 ```typescript
 let hobbies: string[] = ['Soccer', 'Football', 'Volleyball']; // ['Soccer', 'Football', 'Volleyball']
@@ -27,7 +27,7 @@ let arrayWithAnyTypes: any[] = [23, 'Jack', 24]; // [23, 'Jack', 24]
 let ages: number[] = [21, 23, 24]; // [21, 23, 24]
 ```
 
-### Tuples
+## Tuples
 
 Like array but need to follow types in array
 
@@ -37,7 +37,7 @@ let address: [string, number] = ['Dang Nghiem', 24]; // ['Dang Nghiem', 24]
 let address: [string, number] = [24, 'Dang Nghiem']; // Compile error
 ```
 
-### Enum
+## Enum
 
 ```typescript
 enum Colors {
@@ -66,7 +66,7 @@ console.log('myColor: ', myColorGreen); // myColor: 100
 console.log('myColor: ', myColorBlue); // myColor: 101
 ```
 
-### Functions
+## Functions
 
 With return a type:
 
@@ -117,7 +117,7 @@ myMultiply = multiply;
 console.log(myMultiply(10, 20)); // 200
 ```
 
-### Object
+## Object
 
 ```typescript
 let userData: { name: string; age: number } = {
@@ -151,13 +151,13 @@ let complex1: Complex = {
 };
 ```
 
-### Allowing multiple Types with Union Types
+## Allowing multiple Types with Union Types
 
 ```typescript
 let myRealAge: number | string = 27;
 ```
 
-### Never
+## Never
 
 ```typescript
 function neverReturn(): never {
@@ -165,7 +165,7 @@ function neverReturn(): never {
 }
 ```
 
-### Nullable type
+## Nullable type
 
 setting up with:
 
